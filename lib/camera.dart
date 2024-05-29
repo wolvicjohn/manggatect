@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
-import 'ImageDisplayPage.dart';  // Import the new page
+import 'ImageDisplayPage.dart'; 
 
 class CameraButton extends StatefulWidget {
   const CameraButton({Key? key}) : super(key: key);
@@ -30,7 +30,7 @@ class _CameraButtonState extends State<CameraButton> {
     return ElevatedButton(
       onPressed: _takePhoto,
       style: ElevatedButton.styleFrom(
-        primary: const Color.fromRGBO(251, 225, 52, 1),
+        backgroundColor: const Color.fromRGBO(251, 225, 52, 1),
         minimumSize: const Size(150, 100),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),

@@ -30,7 +30,7 @@ class _GalleryButtonState extends State<GalleryButton> {
     return ElevatedButton(
       onPressed: _pickImage,
       style: ElevatedButton.styleFrom(
-        primary: const Color.fromRGBO(251, 225, 52, 1),
+        backgroundColor: const Color.fromRGBO(251, 225, 52, 1),
         minimumSize: const Size(150, 100),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
